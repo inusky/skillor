@@ -49,6 +49,10 @@ useHead({
   title: 'Sign In | Skillor',
 });
 
+definePageMeta({
+  middleware: 'auth',
+});
+
 const email = ref('');
 
 const redirectToAuth0 = (params: Record<string, string>) => {
