@@ -2,7 +2,10 @@
   <header class="app-header">
     <div class="app-header__inner">
       <div class="app-header__main">
-        <NuxtLink class="app-header__brand" to="/">Skillor</NuxtLink>
+        <NuxtLink class="app-header__brand" to="/">
+          <span class="skill">Skill</span>
+          <span class="or">or</span>
+        </NuxtLink>
 
         <nav class="app-header__nav-links" aria-label="Primary">
           <NuxtLink to="#overview">Overview</NuxtLink>
