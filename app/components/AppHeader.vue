@@ -5,9 +5,9 @@
         <NuxtLink class="app-header__brand" to="/">Skillor</NuxtLink>
 
         <nav class="app-header__nav-links" aria-label="Primary">
-          <NuxtLink to="#">Overview</NuxtLink>
-          <NuxtLink to="#">Resources</NuxtLink>
-          <NuxtLink to="#">Contact</NuxtLink>
+          <NuxtLink to="#overview">Overview</NuxtLink>
+          <NuxtLink to="#resources">Resources</NuxtLink>
+          <NuxtLink to="#contact">Contact</NuxtLink>
         </nav>
       </div>
 
