@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Home | Skillor',
+      link: [{ rel: 'preconnect', href: 'https://www.skillor.in' }],
     },
   },
   css: ['./app/assets/scss/main.scss'],
